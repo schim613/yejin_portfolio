@@ -121,9 +121,28 @@ body {
 
 /* 포트폴리오 */
 .pf-img-1 {
-  top: auto;
-  bottom: 55px;
-  left: 55px;
+  top:170px;
+  left:330px;
+}
+
+.pf-img-2 {
+  top:272px;
+  left:67px;
+}
+
+.pf-img-3 {
+  top:403px;
+  left:44px;
+}
+
+.pf-img-4 {
+  top:874px;
+  left:54px;
+}
+
+.pf-img-5 {
+  top:668px;
+  left:1561px;
 }
 
 /* 연락 */
@@ -145,6 +164,12 @@ body {
 .ct-img-4 {
   top: 655px;
   left: 955px;
+}
+
+.ct-img-5 {
+  top: auto;
+  bottom: 55px;
+  left: 55px;
 }
 
 .ct-form-1 {
