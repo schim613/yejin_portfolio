@@ -114,9 +114,7 @@ body {
 
 /* 자기소개 */
 .am-img-1 {
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin:170 330px;
 }
 
 /* 포트폴리오 */
