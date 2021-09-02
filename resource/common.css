@@ -121,25 +121,18 @@ body {
 
 /* 포트폴리오 */
 .pf-img-1 {
-  top: 55%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 100;
-}
-
-.pf-img-2 {
   top:21.4444%;
   left:4.1666%;
   z-index: -1;
 }
 
-.pf-img-3 {
+.pf-img-2 {
   top:35.3333%;
   left:7.291%;
   z-index: -1;
 }
 
-.pf-img-4 {
+.pf-img-3 {
   top:64.037%;
   left:5%;
   z-index: -1;
