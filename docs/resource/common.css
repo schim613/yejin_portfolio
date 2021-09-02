@@ -107,50 +107,69 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 90px;
+  font-size: 80px;
   color: #A37CC9;
   text-shadow: 2px 2px 4px #000;
 }
 
 /* 자기소개 */
 .am-img-1 {
-  margin:170 330px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 /* 포트폴리오 */
 .pf-img-1 {
-  top:170px;
-  left:330px;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 100;
 }
 
 .pf-img-2 {
-  top:272px;
-  left:67px;
+  top:21.4444%;
+  left:4.1666%;
 }
 
 .pf-img-3 {
-  top:403px;
-  left:44px;
+  top:35.3333%;
+  left:7.291%;
 }
 
 .pf-img-4 {
-  top:874px;
-  left:54px;
+  top:64.037%;
+  left:5%;
 }
 
-.pf-img-5 {
-  top:668px;
-  left:1561px;
+.pf-wrap {
+  margin-left:390px;
+  margin-top:200px;
+}
+
+.pf-wrap > div {
+  width:360px;
+  height:712.49px;
+  border:10px solid red;
+  box-sizing: border-box;
+}
+
+.pf-wrap > div:not(:last-child) {
+  margin-right: 30px;
+}
+
+.pf-1, .pf-4, .pf-5 {
+  background-image: url("");
 }
 
 /* 연락 */
 .ct-img-1 {
-  top: 257px;
+  top: 227px;
   left: 300px;
 }
 
 .ct-img-2 {
-  top: 228px;
+  top: 198px;
   left: 1000px;
 }
 
@@ -171,17 +190,17 @@ body {
 }
 
 .ct-form-1 {
-  top: 330px;
+  top: 300px;
   left: 1100px;
 }
 
 .ct-form-2 {
-  top: 405px;
+  top: 375px;
   left: 1100px;
 }
 
 .ct-form-3 {
-  top: 721px;
+  top: 691px;
   left: 1080px;
 }
 
