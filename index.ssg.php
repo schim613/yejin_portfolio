@@ -19,13 +19,16 @@
     <a href="#home"><img src="resource/img/btn_1_2.png" alt="상단버튼" class="section-item icon-up"></a>
     <div class="mousemove-effect-1-el section-item pf-img-1" data-mousemove-effect1-hor-res="0.03"
       data-mousemove-effect1-ver-res="0.03">
-      <img class="block" src="resource/img/3-2.png" alt=""></div>
+      <img class="block" src="resource/img/3-2.png" alt="스티커-마름모"></div>
     <div class="mousemove-effect-1-el section-item pf-img-2" data-mousemove-effect1-hor-res="0.02"
       data-mousemove-effect1-ver-res="0.02">
-      <img class="block" src="resource/img/3-3.png" alt=""></div>
+      <img class="block" src="resource/img/3-3.png" alt="스티커-별"></div>
     <div class="mousemove-effect-1-el section-item pf-img-3" data-mousemove-effect1-hor-res="0.01"
       data-mousemove-effect1-ver-res="0.01">
-      <img class="block" src="resource/img/3-4.png" alt=""></div>
+      <img class="block" src="resource/img/3-4.png" alt="스티커-모형"></div>
+    <div class="mousemove-effect-1-el section-item pf-img-4" data-mousemove-effect1-hor-res="0.01"
+      data-mousemove-effect1-ver-res="0.01">
+      <img class="block" src="resource/img/3-5.png" alt="스티커-커서"></div>
     <div class="portfolio flex">
       <div class="pf-wrap-1">
         <div class="pf-content pf-1">
