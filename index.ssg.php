@@ -32,48 +32,54 @@
     <div class="portfolio flex">
       <div class="pf-wrap-1">
         <div class="pf-content pf-1">
-          <div>포폴1
+          <div>
             <a class="pf-img cursor-pointer" href="https://picsum.photos/id/231/1000/500" data-lightbox="image-1" data-title="마음에 드는 배너라서, 살짝 리디자인 해봤습니다.">
-              <img src="https://picsum.photos/id/231/320/190" alt="">
+              <span>포폴1</span>
+              <img src="https://picsum.photos/id/231/340/190" alt="">
             </a>
           </div>
         </div>
         <div class="pf-content pf-2">
-          <div>포폴2
+          <div>
             <a class="pf-img cursor-pointer" href="https://picsum.photos/id/232/500/400" data-lightbox="image-1" data-title="이미지2">
-              <img src="https://picsum.photos/id/232/320/190" alt="">
+            <span>포폴2</span>
+            <img src="https://picsum.photos/id/232/340/190" alt="">
             </a>
           </div>
         </div>
       </div>
       <div class="pf-wrap-2">
         <div class="pf-content pf-3">
-          <div>포폴3
+          <div>
             <a class="pf-img cursor-pointer" href="https://picsum.photos/id/233/400/600" data-lightbox="image-1" data-title="이미지3">
-              <img src="https://picsum.photos/id/233/320/190" alt="">
+              <span>포폴3</span>  
+              <img src="https://picsum.photos/id/233/340/190" alt="">
             </a>
           </div>
         </div>
         <div class="pf-content pf-4">
-          <div>포폴4
+          <div>
             <a class="pf-img cursor-pointer" href="https://picsum.photos/id/234/800/400" data-lightbox="image-1" data-title="이미지4">
-              <img src="https://picsum.photos/id/234/320/190" alt="">
+            <span>포폴4</span>  
+            <img src="https://picsum.photos/id/234/340/190" alt="">
             </a>
           </div>
         </div>
       </div>
       <div class="pf-wrap-3">
         <div class="pf-content pf-5">
-          <div>포폴5
+          <div>
             <a class="pf-img cursor-pointer" href="https://picsum.photos/id/235/400/400" data-lightbox="image-1" data-title="이미지5">
-              <img src="https://picsum.photos/id/235/320/190" alt="">
+            <span>포폴5</span>  
+            <img src="https://picsum.photos/id/235/340/190" alt="">
             </a>
           </div>
         </div>
         <div class="pf-content pf-6">
-          <div>포폴6
+          <div>
             <a class="pf-img cursor-pointer" href="https://picsum.photos/id/236/720/400" data-lightbox="image-1" data-title="이미지6">
-              <img src="https://picsum.photos/id/236/320/190" alt="">
+            <span>포폴6</span>  
+            <img src="https://picsum.photos/id/236/340/190" alt="">
             </a>
           </div>
         </div>

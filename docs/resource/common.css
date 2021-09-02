@@ -158,13 +158,15 @@ body {
 }
 
 .portfolio {
+  width:1140px;
+  height:730px;
   margin-left:390px;
   margin-top:150px;
 }
 
 .portfolio > div {
   width:360px;
-  height:712.49px;
+  height:730px;
 }
 
 .portfolio > div:not(:last-child) {
@@ -175,48 +177,48 @@ body {
   margin-bottom: 30px;
 }
 
-.pf-content > div {
-  padding: 10px;
-}
-
 .pf-1, .pf-4, .pf-5 {
   width:360px;
-  height:437.2px;
-  background-image: url("https://raw.githubusercontent.com/schim613/yejin_portfolio/master/resource/img/3-1-1.png");
+  height:430px;
+  background-image: url("img/3-1-1.png");
 }
 
 .pf-2, .pf-3, .pf-6 {
   width:360px;
-  height:245.75px;
-  background-image: url("https://raw.githubusercontent.com/schim613/yejin_portfolio/master/resource/img/3-1-2.png");
+  height:270px;
+  background-image: url("img/3-1-2.png");
+}
+
+.pf-content > div {
+  padding: 10px;
 }
 
 .pf-img > img {
-  margin-top: 10px;
+  margin-top: 15px;
 }
 
 /* 연락 */
 .ct-img-1 {
   top: 227px;
-  left: 300px;
+  left: 350px;
   pointer-events: none;
 }
 
 .ct-img-2 {
-  top: 198px;
-  left: 1000px;
+  top: 183px;
+  left: 970px;
   pointer-events: none;
 }
 
 .ct-img-3 {
-  top: 355px;
-  left: 1560px;
+  top: 310px;
+  left: 1530px;
   pointer-events: none;
 }
 
 .ct-img-4 {
-  top: 655px;
-  left: 955px;
+  top: 620px;
+  left: 925px;
   pointer-events: none;
 }
 
@@ -228,18 +230,18 @@ body {
 }
 
 .ct-form-1 {
-  top: 300px;
-  left: 1100px;
+  top: 285px;
+  left: 1070px;
 }
 
 .ct-form-2 {
-  top: 375px;
-  left: 1100px;
+  top: 360px;
+  left: 1070px;
 }
 
 .ct-form-3 {
-  top: 691px;
-  left: 1080px;
+  top: 676px;
+  left: 1050px;
 }
 
 input,
