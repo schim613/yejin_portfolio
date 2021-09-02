@@ -22,6 +22,15 @@
   font-style: normal;
 }
 
+/* 커서 */
+body {
+  cursor: url(img/cursor.png), auto !important;
+}
+
+.cursor-pointer {
+  cursor: url(img/cursor_2.png), auto !important;
+}
+
 /* 노말라이즈 */
 body,
 ul,
