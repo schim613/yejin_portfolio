@@ -47,7 +47,7 @@ a {
 
 body {
   min-width: 1920px;
-  background-image: url(https://schim613.github.io/portfolio/pf/work1/resource/background-img.jpg);
+  background-image: url(img/background.jpg);
 }
 
 /* 라이브러리 */
@@ -126,6 +126,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  pointer-events: none;
 }
 
 /* 포트폴리오 */
@@ -133,23 +134,27 @@ body {
   top:21.4444%;
   left:4.1666%;
   z-index: -1;
+  pointer-events: none;
 }
 
 .pf-img-2 {
   top:35.3333%;
   left:7.291%;
   z-index: -1;
+  pointer-events: none;
 }
 
 .pf-img-3 {
   top:64.037%;
   left:5%;
   z-index: -1;
+  pointer-events: none;
 }
 
 .pf-img-4 {
   top:22%;
   left:76.5%;
+  pointer-events: none;
 }
 
 .portfolio {
@@ -194,27 +199,32 @@ body {
 .ct-img-1 {
   top: 227px;
   left: 300px;
+  pointer-events: none;
 }
 
 .ct-img-2 {
   top: 198px;
   left: 1000px;
+  pointer-events: none;
 }
 
 .ct-img-3 {
   top: 355px;
   left: 1560px;
+  pointer-events: none;
 }
 
 .ct-img-4 {
   top: 655px;
   left: 955px;
+  pointer-events: none;
 }
 
 .ct-img-5 {
   top: auto;
   bottom: 55px;
   left: 55px;
+  pointer-events: none;
 }
 
 .ct-form-1 {

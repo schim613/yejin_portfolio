@@ -1,11 +1,10 @@
 // 이미지 로딩 기다리기
 $('body').imagesLoaded(function() {
+  // 풀페이지
+  new fullpage('#fullpage', {
+    menu: ".top-bar .menu-1"
+  });
   SectionEffect__init();
-});
-
-// 풀페이지
-new fullpage('#fullpage', {
-  menu: ".top-bar .menu-1"
 });
 
 // 연락-이메일 폼

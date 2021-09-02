@@ -47,13 +47,13 @@
   <div class="site-wrap">
   <header class="top-bar">
     <div class="flex h-full">
-      <a class="logo flex items-center" data-menuanchor="home" href="#home"><img src="resource/img/logo_0_1.png" alt="로고"></a>
+      <a class="logo flex items-center cursor-pointer" data-menuanchor="home" href="#home"><img src="resource/img/logo_0_1.png" alt="로고"></a>
 
       <div class="flex-grow"></div>
 
       <ul class="menu-1 flex items-center">
         <li data-menuanchor="about-me">
-          <a href="#about-me">
+          <a href="#about-me" class="cursor-pointer">
             <span>ABOUT ME</span>
             <svg class="svg-1 active-line" width="190" height="100" viewBox="0 0 194 102" fill="none"
               xmlns="http://www.w3.org/2000/svg">
@@ -64,7 +64,7 @@
           </a>
         </li>
         <li data-menuanchor="portfolio">
-          <a href="#portfolio">
+          <a href="#portfolio" class="cursor-pointer">
             <span>PORTFOLIO</span>
             <svg class="svg-1 active-line" width="190" height="100" viewBox="0 0 194 102" fill="none"
               xmlns="http://www.w3.org/2000/svg">
@@ -75,7 +75,7 @@
           </a>
         </li>
         <li data-menuanchor="contact">
-          <a href="#contact">
+          <a href="#contact" class="cursor-pointer">
             <span>CONTACT</span>
             <svg class="svg-1 active-line" width="190" height="100" viewBox="0 0 194 102" fill="none"
               xmlns="http://www.w3.org/2000/svg">
