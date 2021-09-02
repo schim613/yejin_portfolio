@@ -130,36 +130,57 @@ body {
 .pf-img-2 {
   top:21.4444%;
   left:4.1666%;
+  z-index: -1;
 }
 
 .pf-img-3 {
   top:35.3333%;
   left:7.291%;
+  z-index: -1;
 }
 
 .pf-img-4 {
   top:64.037%;
   left:5%;
+  z-index: -1;
 }
 
-.pf-wrap {
+.portfolio {
   margin-left:390px;
-  margin-top:200px;
+  margin-top:150px;
 }
 
-.pf-wrap > div {
+.portfolio > div {
   width:360px;
   height:712.49px;
-  border:10px solid red;
-  box-sizing: border-box;
 }
 
-.pf-wrap > div:not(:last-child) {
+.portfolio > div:not(:last-child) {
   margin-right: 30px;
 }
 
+.portfolio > div > .pf-content:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+.pf-content > div {
+  padding: 10px;
+}
+
 .pf-1, .pf-4, .pf-5 {
-  background-image: url("");
+  width:360px;
+  height:437.2px;
+  background-image: url("https://raw.githubusercontent.com/schim613/yejin_portfolio/master/resource/img/3-1-1.png");
+}
+
+.pf-2, .pf-3, .pf-6 {
+  width:360px;
+  height:245.75px;
+  background-image: url("https://raw.githubusercontent.com/schim613/yejin_portfolio/master/resource/img/3-1-2.png");
+}
+
+.pf-img > img {
+  margin-top: 10px;
 }
 
 /* 연락 */
