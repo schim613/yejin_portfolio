@@ -91,6 +91,7 @@ body {
   height: 100px;
   font-size: 20px;
   font-family: "COCOGOOSE";
+  color:#333;
 }
 
 .menu-1 > li > a > svg {
