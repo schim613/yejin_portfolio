@@ -36,7 +36,10 @@
   <div class="site-wrap">
   <header class="top-bar">
     <div class="flex h-full">
-      <a class="logo flex items-center cursor-pointer" data-menuanchor="home" href="#home"><img src="resource/img/logo_0_1.png" alt="로고"></a>
+      <a class="flex items-center cursor-pointer relative" data-menuanchor="home" href="#home">
+        <img src="resource/img/logo_0_1.png" alt="로고" class="logo">
+        <img src="resource/img/home.png" alt="홈표시" class="home hidden">
+      </a>
 
       <div class="flex-grow"></div>
 

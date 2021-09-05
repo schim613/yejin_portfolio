@@ -112,6 +112,11 @@ body {
 }
 
 /* 홈 */
+.home {
+  position: absolute;
+  top:85%;
+}
+
 .main-text {
   font-family: 'COCOGOOSE';
   top: 50%;
@@ -122,12 +127,26 @@ body {
   text-shadow: 2px 2px 4px #000;
 }
 
+.hm-img-1 {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /* 자기소개 */
 .am-img-1 {
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
+
+.am-img-2 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   pointer-events: none;
+  z-index: 10000;
 }
 
 /* 포트폴리오 */

@@ -36,7 +36,10 @@
   <div class="site-wrap">
   <header class="top-bar">
     <div class="flex h-full">
-      <a class="logo flex items-center cursor-pointer" data-menuanchor="home" href="#home"><img src="resource/img/logo_0_1.png" alt="로고"></a>
+      <a class="flex items-center cursor-pointer relative" data-menuanchor="home" href="#home">
+        <img src="resource/img/logo_0_1.png" alt="로고" class="logo">
+        <img src="resource/img/home.png" alt="홈표시" class="home hidden">
+      </a>
 
       <div class="flex-grow"></div>
 
@@ -81,15 +84,20 @@
   <!-- 홈 -->
   <section class="section relative fp-auto-height-responsive" data-anchor="home">
     <a class="cursor-pointer" href="#about-me"><img src="resource/img/btn_1_1.png" alt="하단버튼" class="section-item icon-down"></a>
-    <h1 class="main-text absolute whitespace-nowrap">
+    <!-- <h1 class="main-text absolute whitespace-nowrap">
       THE CREATIVE NOTE
-    </h1>
+    </h1> -->
+    <div class="mousemove-effect-1-el" data-mousemove-effect1-hor-res="0.03"
+      data-mousemove-effect1-ver-res="0.01">
+      <img class="section-item hm-img-1" src="resource/img/main-title.png" alt="메인타이틀"></div>
+    <!-- <div><img src="resource/img/main-title.png" alt="메인타이틀" class="section-item hm-img-1"></div> -->
   </section>
 
   <!-- 자기소개 -->
   <section class="section relative fp-auto-height-responsive" data-anchor="about-me">
     <a class="cursor-pointer" href="#home"><img src="resource/img/btn_1_2.png" alt="상단버튼" class="section-item icon-up"></a>
-    <div><img src="resource/img/2-1.png" alt="자기소개" class="section-item am-img-1"></div>
+    <div><a href="#"><img src="resource/img/2-1.png" alt="컴퓨터" class="section-item am-img-1"></a></div>
+    <div><img src="resource/img/2-2.png" alt="자기소개" class="section-item hidden am-img-2"></div>
   </section>
 
   <!-- 포트폴리오 -->
