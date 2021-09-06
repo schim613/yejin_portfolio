@@ -198,6 +198,13 @@ body {
   margin-right:10px;
 }
 
+.am-img-2 {
+  top:auto;
+  bottom:0;
+  left:10%;
+  pointer-events: none;
+}
+
 /* 포트폴리오 */
 .pf-img-1 {
   top:21.4444%;
