@@ -145,7 +145,7 @@ body {
 .popup {
   position:absolute;
   display: none;
-  width:783px;
+  width:749px;
   height: 697px;
   background-image: url(img/2-2.png);
   background-size: cover;
