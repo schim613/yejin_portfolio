@@ -16,8 +16,8 @@ $('.logo').mouseleave(function(){
   $('.home').hide();
 });
 
-// 자기소개-컴퓨터 클릭시 자기소개 사진 표시
-$('.am-img-1').click(function(){
+// 기타-컴퓨터 클릭시 사진 표시
+$('.ect-img-1').click(function(){
   $('.popup').show();
 });
 

@@ -133,75 +133,11 @@ body {
 }
 
 /* 자기소개 */
-.am-img-1 {
-  width:1209px;
-  height: 580px;
-  background-image: url(img/2-1.png);
-  margin-top: 10%;
-  margin-left: 30%;
-  cursor: pointer;
-}
 
-.popup {
-  position:absolute;
-  display: none;
-  width:749px;
-  height: 697px;
-  background-image: url(img/2-2.png);
-  background-size: cover;
+.am-img-1 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  z-index: 1000;
-  cursor: pointer;
-}
-
-.click-wrap {
-  top: 50%;
-  left: 58%;
-  transform: translate(-50%, -50%);
-  height: 70px;
-}
-
-.click-message {
-  animation-name: floating;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-}
-
-@keyframes floating {
-  0% {
-    top:100%;
-  }
-  
-  16.6666% {
-    top:66.6666%;
-  }
-  
-  33.3333% {
-    top:33.3333%;
-  }
-  
-  100% {
-    top:0%;
-  }
-}
-
-.click-message > img {
-  height: 24px;
-}
-
-.click-message > span {
-  font-family: 'DungGeunMo';
-  font-size: 24px;
-  color:white;
-  margin-right:10px;
-}
-
-.am-img-2 {
-  top:auto;
-  bottom:0;
-  left:10%;
   pointer-events: none;
 }
 
@@ -357,4 +293,71 @@ button {
   font-family: 'COCOGOOSE';
   font-size: 25px;
   color: #535050;
+}
+
+/* 기타 */
+.ect-img-1 {
+  width:800px;
+  height: 400px;
+  background-image: url(img/5-1.png);
+  top: 60%;
+  left: 65%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.popup {
+  position:absolute;
+  display: none;
+  width:749px;
+  height: 697px;
+  background-image: url(img/5-2.png);
+  background-size: cover;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.click-wrap {
+  top: 50%;
+  left: 58%;
+  transform: translate(-50%, -50%);
+  height: 70px;
+}
+
+.click-message {
+  animation-name: floating;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes floating {
+  0% {
+    top:100%;
+  }
+  
+  16.6666% {
+    top:66.6666%;
+  }
+  
+  33.3333% {
+    top:33.3333%;
+  }
+  
+  100% {
+    top:0%;
+  }
+}
+
+.click-message > img {
+  height: 24px;
+}
+
+.click-message > span {
+  font-family: 'DungGeunMo';
+  font-size: 24px;
+  color:white;
+  margin-right:10px;
 }

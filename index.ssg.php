@@ -16,16 +16,7 @@
   <section class="section relative fp-auto-height-responsive" data-anchor="about-me">
     <a class="cursor-pointer" href="#home"><img src="resource/img/btn_1_2.png" alt="상단버튼"
         class="section-item icon-up"></a>
-    <div class="am-img-1 cursor-pointer relative">
-      <div class="click-wrap absolute">
-        <div class="click-message flex items-center relative">
-          <span>click!</span>
-          <img src="resource/img/cursor_2.png" alt="클릭">
-        </div>
-      </div>
-    </div>
-    <div class="popup cursor-pointer"></div>
-    <div><img src="resource/img/2-3.png" alt="프로필사진" class="section-item am-img-2"></div>
+    <div><img src="resource/img/2-1.png" alt="프로필사진" class="section-item am-img-1"></div>
   </section>
 
   <!-- 포트폴리오 -->
@@ -101,7 +92,7 @@
               data-title="이미지6">
               <span>포폴6</span>
               <img src="https://picsum.photos/id/236/340/190" alt="">
-            </a> 
+            </a>
           </div>
         </div>
       </div>
@@ -129,6 +120,21 @@
         <button class="cursor-pointer" name="submit1" type="submit">Send</button>
       </div>
     </form>
+  </section>
+
+  <!-- 기타 -->
+  <section class="section relative fp-auto-height-responsive" data-anchor="ect">
+    <a class="cursor-pointer" href="#ect"><img src="resource/img/btn_1_2.png" alt="상단버튼"
+        class="section-item icon-up"></a>
+    <div class="ect-img-1 cursor-pointer absolute">
+      <div class="click-wrap absolute">
+        <div class="click-message flex items-center relative">
+          <span>click!</span>
+          <img src="resource/img/cursor_2.png" alt="클릭">
+        </div>
+      </div>
+    </div>
+    <div class="popup cursor-pointer"></div>
   </section>
 </div>
 <?php require_once "foot.php"; ?>
