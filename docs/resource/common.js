@@ -16,13 +16,13 @@ $('.logo').mouseleave(function(){
   $('.home').hide();
 });
 
-// 자기소개-컴퓨터 마우스엔터 및 클릭시 자기소개 사진 표시
-$('.am-img-1').mouseenter(function(){
-  $('.am-img-2').show();
+// 자기소개-컴퓨터 클릭시 자기소개 사진 표시
+$('.am-img-1').click(function(){
+  $('.popup').show();
 });
 
-$('.am-img-2').mouseleave(function(){
-  $('.am-img-2').hide();
+$('.popup').click(function(){
+  $('.popup').hide();
 });
 
 // 연락-이메일 폼
