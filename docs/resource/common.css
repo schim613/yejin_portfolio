@@ -57,12 +57,10 @@ body {
 
 .section-item {
   position: absolute;
-  top: 0;
 }
 
 .icon-up,
 .icon-down {
-  top: auto;
   bottom: 55px;
   right: 150px;
   left: auto;
@@ -164,54 +162,60 @@ body {
 }
 
 .pf-img-4 {
-  top:19%;
-  left:76.5%;
+  top:30%;
+  left:78%;
   pointer-events: none;
 }
 
 .portfolio {
-  width:1140px;
-  height:730px;
-  margin-left:390px;
-  margin-top:100px;
+  width:1180px;
+  height:750px;
+  margin-left:370px;
+  margin-top: 80px;
 }
 
 .portfolio > div {
-  width:360px;
-  height:730px;
+  width:380px;
+  height:770px;
 }
 
 .portfolio > div:not(:last-child) {
-  margin-right: 30px;
+  margin-right: 20px;
 }
 
 .portfolio > div > .pf-content:not(:last-child) {
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .pf-1, .pf-4, .pf-5 {
-  width:360px;
-  height:430px;
+  width:380px;
+  height:450px;
   background-image: url("img/3-1-1.png");
 }
 
 .pf-2, .pf-3, .pf-6 {
-  width:360px;
-  height:270px;
+  width:380px;
+  height:290px;
   background-image: url("img/3-1-2.png");
 }
 
 .pf-content > div {
-  padding: 10px;
+  padding: 15px 20px;
+}
+
+.pf-img > span {
+  display: block;
+  width: 340px;
+  height: 30px;
 }
 
 .pf-img > img {
-  margin-top: 15px;
+  margin-top: 10px;
 }
 
 /* 연락 */
 .ct-img-1 {
-  top: 227px;
+  top: 290px;
   left: 350px;
   pointer-events: none;
 }
@@ -235,9 +239,38 @@ body {
 }
 
 .ct-img-5 {
-  top: auto;
   bottom: 55px;
   left: 55px;
+  pointer-events: none;
+}
+
+.sticker.ct-img-6{
+  width: 80px;
+  height: 80px;
+  top: 540px;
+  left: 1650px;
+}
+
+.ct-img-6 .sticker-img {
+  background-image: url(img/4-6.png);
+  background-size: contain;
+  pointer-events: none;
+}
+
+.ct-img-6 .sticker-shadow {
+  opacity: 0.6;
+}
+
+.sticker.ct-img-7{
+  width: 80px;
+  height: 80px;
+  top: 250px;
+  left: 570px;
+}
+
+.ct-img-7 .sticker-img {
+  background-image: url(img/4-7.png);
+  background-size: contain;
   pointer-events: none;
 }
 

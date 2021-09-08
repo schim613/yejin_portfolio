@@ -25,6 +25,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
 
+  <!--sticker-->
+  <script src="resource/sticker.min.js"></script>
+
   <!-- 사이트 공통 JS -->
   <script src="resource/common.js" defer></script>
 

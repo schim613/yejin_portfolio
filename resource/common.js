@@ -103,3 +103,8 @@ function MousemoveEffect1__init() {
 }
 
 MousemoveEffect1__init();
+
+// 스티커 효과
+window.onload = function() {
+  Sticker.init('.sticker');
+}

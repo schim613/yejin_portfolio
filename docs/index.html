@@ -25,6 +25,9 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
 
+  <!--sticker-->
+  <script src="resource/sticker.min.js"></script>
+
   <!-- 사이트 공통 JS -->
   <script src="resource/common.js" defer></script>
 
@@ -85,7 +88,7 @@
   <section class="section relative fp-auto-height-responsive" data-anchor="home">
     <a class="cursor-pointer" href="#about-me"><img src="resource/img/btn_1_1.png" alt="하단버튼"
         class="section-item icon-down"></a>
-    <!-- <h1 class="main-text absolute whitespace-nowrap">
+    <!-- <h1 class="main-text section-item whitespace-nowrap">
       THE CREATIVE NOTE
     </h1> -->
     <div class="mousemove-effect-1-el" data-mousemove-effect1-hor-res="0.03" data-mousemove-effect1-ver-res="0.01">
@@ -97,7 +100,7 @@
   <section class="section relative fp-auto-height-responsive" data-anchor="about-me">
     <a class="cursor-pointer" href="#home"><img src="resource/img/btn_1_2.png" alt="상단버튼"
         class="section-item icon-up"></a>
-    <div><img src="resource/img/2-1.png" alt="프로필사진" class="section-item am-img-1"></div>
+    <div><img src="resource/img/2-1.png" alt="프로필" class="section-item am-img-1"></div>
   </section>
 
   <!-- 포트폴리오 -->
@@ -189,15 +192,17 @@
     <div><img src="resource/img/4-3.png" alt="스티커1" class="section-item ct-img-3"></div>
     <div><img src="resource/img/4-4.png" alt="스티커2" class="section-item ct-img-4"></div>
     <div><img src="resource/img/4-5.png" alt="스티커3" class="section-item ct-img-5"></div>
+    <div class="sticker section-item ct-img-6 cursor-pointer"></div>
+    <div class="sticker section-item ct-img-7 cursor-pointer"></div>
     <form target="_blank" action="https://formspree.io/f/mnqlozzw" onsubmit="sendEmailForm(this); return false;"
       method="POST">
-      <div class="absolute ct-form-1">
+      <div class="section-item ct-form-1">
         <input autofocus type="email" name="_replyto" placeholder="E-mail address">
       </div>
-      <div class="absolute ct-form-2">
+      <div class="section-item ct-form-2">
         <textarea name="message" placeholder="Contents"></textarea>
       </div>
-      <div class="absolute ct-form-3">
+      <div class="section-item ct-form-3">
         <button class="cursor-pointer" name="submit1" type="submit">Send</button>
       </div>
     </form>
