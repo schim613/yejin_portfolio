@@ -73,6 +73,7 @@ body {
   background-color: white;
   z-index: 1000;
   transition: opacity 0.3s, visibility 0.3s;
+  overflow: hidden;
 }
 
 .loading-box.hide {
