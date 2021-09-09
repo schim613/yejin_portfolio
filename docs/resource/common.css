@@ -2,16 +2,11 @@
 @font-face {
   font-family: "COCOGOOSE";
   src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot");
-  src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot?#iefix")
-      format("embedded-opentype"),
-    url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff2")
-      format("woff2"),
-    url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff")
-      format("woff"),
-    url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.ttf")
-      format("truetype"),
-    url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.svg#COCOGOOSE")
-      format("svg");
+  src: url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.eot?#iefix") format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff2") format("woff2"),
+    url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.woff") format("woff"),
+    url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.ttf") format("truetype"),
+    url("//db.onlinewebfonts.com/t/d14035f6b1afeabafbee4abb2ebf0fc6.svg#COCOGOOSE") format("svg");
 }
 
 @font-face {
@@ -50,7 +45,7 @@ body {
 }
 
 /* 라이브러리 */
-.img-box > img {
+.img-box>img {
   display: block;
   width: 100%;
 }
@@ -68,6 +63,23 @@ body {
 }
 
 /* 커스텀 */
+/* 로딩화면 */
+.loading-box {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 1000;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.loading-box.hide {
+  opacity: 0;
+  visibility: hidden;
+}
+
 /* 탑바 */
 .top-bar {
   position: fixed;
@@ -79,7 +91,7 @@ body {
   padding-top: 20px;
 }
 
-.menu-1 > li > a {
+.menu-1>li>a {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,22 +100,22 @@ body {
   height: 100px;
   font-size: 20px;
   font-family: "COCOGOOSE";
-  color:#333;
+  color: #333;
 }
 
-.menu-1 > li > a > svg {
+.menu-1>li>a>svg {
   position: absolute;
   top: 0;
   left: 0;
 }
 
-.menu-1 > li > a > svg path {
+.menu-1>li>a>svg path {
   stroke-dasharray: 949.1766967773438;
   stroke-dashoffset: 949.1766967773438;
 }
 
-.menu-1:not(:hover) > li.active > a > svg path,
-.menu-1 > li:hover > a > svg path {
+.menu-1:not(:hover)>li.active>a>svg path,
+.menu-1>li:hover>a>svg path {
   stroke-dashoffset: 0;
   transition: stroke-dashoffset 1s;
 }
@@ -111,7 +123,7 @@ body {
 /* 홈 */
 .home {
   position: absolute;
-  top:85%;
+  top: 85%;
 }
 
 .main-text {
@@ -141,75 +153,79 @@ body {
 
 /* 포트폴리오 */
 .pf-img-1 {
-  top:21.4444%;
-  left:4.1666%;
+  top: 21.4444%;
+  left: 4.1666%;
   z-index: -1;
   pointer-events: none;
 }
 
 .pf-img-2 {
-  top:35.3333%;
-  left:7.291%;
+  top: 35.3333%;
+  left: 7.291%;
   z-index: -1;
   pointer-events: none;
 }
 
 .pf-img-3 {
-  top:64.037%;
-  left:5%;
+  top: 64.037%;
+  left: 5%;
   z-index: -1;
   pointer-events: none;
 }
 
 .pf-img-4 {
-  top:30%;
-  left:78%;
+  top: 30%;
+  left: 78%;
   pointer-events: none;
 }
 
 .portfolio {
-  width:1180px;
-  height:750px;
-  margin-left:370px;
+  width: 1180px;
+  height: 750px;
+  margin-left: 370px;
   margin-top: 80px;
 }
 
-.portfolio > div {
-  width:380px;
-  height:770px;
+.portfolio>div {
+  width: 380px;
+  height: 770px;
 }
 
-.portfolio > div:not(:last-child) {
+.portfolio>div:not(:last-child) {
   margin-right: 20px;
 }
 
-.portfolio > div > .pf-content:not(:last-child) {
+.portfolio>div>.pf-content:not(:last-child) {
   margin-bottom: 20px;
 }
 
-.pf-1, .pf-4, .pf-5 {
-  width:380px;
-  height:450px;
+.pf-1,
+.pf-4,
+.pf-5 {
+  width: 380px;
+  height: 450px;
   background-image: url("img/3-1-1.png");
 }
 
-.pf-2, .pf-3, .pf-6 {
-  width:380px;
-  height:290px;
+.pf-2,
+.pf-3,
+.pf-6 {
+  width: 380px;
+  height: 290px;
   background-image: url("img/3-1-2.png");
 }
 
-.pf-content > div {
+.pf-content>div {
   padding: 15px 20px;
 }
 
-.pf-img > span {
+.pf-img>span {
   display: block;
   width: 340px;
   height: 30px;
 }
 
-.pf-img > img {
+.pf-img>img {
   margin-top: 10px;
 }
 
@@ -244,7 +260,7 @@ body {
   pointer-events: none;
 }
 
-.sticker.ct-img-6{
+.sticker.ct-img-6 {
   width: 80px;
   height: 80px;
   top: 540px;
@@ -261,7 +277,7 @@ body {
   opacity: 0.6;
 }
 
-.sticker.ct-img-7{
+.sticker.ct-img-7 {
   width: 80px;
   height: 80px;
   top: 250px;
@@ -330,7 +346,7 @@ button {
 
 /* 기타 */
 .ect-img-1 {
-  width:800px;
+  width: 800px;
   height: 400px;
   background-image: url(img/5-1.png);
   top: 60%;
@@ -340,16 +356,16 @@ button {
 }
 
 .popup {
-  position:absolute;
+  position: absolute;
   display: none;
-  width:749px;
+  width: 749px;
   height: 697px;
   background-image: url(img/5-2.png);
   background-size: cover;
   top: 50%;
   left: 35%;
   transform: translate(-50%, -50%);
-  z-index: 1000;
+  z-index: 200;
   cursor: pointer;
 }
 
@@ -368,29 +384,29 @@ button {
 
 @keyframes floating {
   0% {
-    top:100%;
+    top: 100%;
   }
-  
+
   16.6666% {
-    top:66.6666%;
+    top: 66.6666%;
   }
-  
+
   33.3333% {
-    top:33.3333%;
+    top: 33.3333%;
   }
-  
+
   100% {
-    top:0%;
+    top: 0%;
   }
 }
 
-.click-message > img {
+.click-message>img {
   height: 24px;
 }
 
-.click-message > span {
+.click-message>span {
   font-family: 'DungGeunMo';
   font-size: 24px;
-  color:white;
-  margin-right:10px;
+  color: white;
+  margin-right: 10px;
 }

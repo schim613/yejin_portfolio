@@ -1,46 +1,48 @@
 // 이미지 로딩 기다리기
-$('body').imagesLoaded(function() {
+$('body').imagesLoaded(function () {
   // 풀페이지
   new fullpage('#fullpage', {
     menu: ".top-bar .menu-1"
   });
+
+  $('.loading-box').addClass('hide');
   SectionEffect__init();
 });
 
 // 로고 마우스엔터시 홈 표시
-$('.logo').mouseenter(function(){
+$('.logo').mouseenter(function () {
   $('.home').show();
 });
 
-$('.logo').mouseleave(function(){
+$('.logo').mouseleave(function () {
   $('.home').hide();
 });
 
 // 기타-컴퓨터 클릭시 사진 표시
-$('.ect-img-1').click(function(){
+$('.ect-img-1').click(function () {
   $('.popup').show();
 });
 
-$('.popup').click(function(){
+$('.popup').click(function () {
   $('.popup').hide();
 });
 
 // 연락-이메일 폼
 function sendEmailForm(form) {
-  if ( form._replyto.value.length == 0 ) {
+  if (form._replyto.value.length == 0) {
     alert('이메일 주소를 입력해주세요.');
     form._replyto.focus();
     return;
   }
-  
-  if ( form.message.value.length == 0 ) {
+
+  if (form.message.value.length == 0) {
     alert('메세지를 입력해주세요.');
     form.message.focus();
     return;
   }
-  
+
   form.submit();
-  
+
   form._replyto.value = '';
   form.message.value = '';
   form.submit1.innerHTML = 'DONE!';
@@ -71,11 +73,11 @@ function MousemoveEffect1__update() {
     const $node = $(node);
     const horRes = $node.data('data-mousemove-effect1-hor-res');
     const verRes = $node.data('data-mousemove-effect1-ver-res');
-    
+
     const x = (MousemoveEffect1__lastPosX - (windowWidth / 2)) * horRes;
     const y = (MousemoveEffect1__lastPosY - (windowHeight / 2)) * verRes;
     $(node).css('transform', 'translateX(' + x + 'px) translateY(' + y + 'px)');
-    
+
     console.log("MousemoveEffect1__lastPosX : " + MousemoveEffect1__lastPosX);
     console.log("MousemoveEffect1__lastPosY : " + MousemoveEffect1__lastPosY);
   });
@@ -105,6 +107,6 @@ function MousemoveEffect1__init() {
 MousemoveEffect1__init();
 
 // 스티커 효과
-window.onload = function() {
+window.onload = function () {
   Sticker.init('.sticker');
 }
