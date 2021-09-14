@@ -127,20 +127,5 @@
       </div>
     </form>
   </section>
-
-  <!-- 기타 -->
-  <section class="section relative fp-auto-height-responsive" data-anchor="ect">
-    <a class="cursor-pointer" href="#ect"><img src="resource/img/btn_1_2.png" alt="상단버튼"
-        class="section-item icon-up"></a>
-    <div class="ect-img-1 cursor-pointer absolute">
-      <div class="click-wrap absolute">
-        <div class="click-message flex items-center relative">
-          <span>click!</span>
-          <img src="resource/img/cursor_2.png" alt="클릭">
-        </div>
-      </div>
-    </div>
-    <div class="popup cursor-pointer"></div>
-  </section>
 </div>
 <?php require_once "foot.php"; ?>
