@@ -203,6 +203,10 @@ body {
   padding: 20px;
 }
 
+.pf-img > img {
+  width: 340px;
+}
+
 .pf-img>span {
   display: block;
   width: 340px;
