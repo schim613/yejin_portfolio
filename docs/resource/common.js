@@ -9,6 +9,9 @@ $('body').imagesLoaded(function () {
   SectionEffect__init();
 });
 
+// a태그 클릭시 새창 띄우기
+$("a").attr("target", "_blank");
+
 // 로고 마우스엔터시 홈 표시
 $('.logo').mouseenter(function () {
   $('.home').show();
