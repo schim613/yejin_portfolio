@@ -51,7 +51,7 @@
         </div>
         <div class="pf-content pf-2">
           <div>
-            <a class="pf-img cursor-pointer" href="https://codepen.io/genie_an/full/poPWWqj">
+            <a class="pf-img cursor-pointer" href="https://codepen.io/genie_an/pen/bGRZEgr">
               <span>오설록 웹사이트 모작</span>
               <img src="resource/img/pf_img2.png" alt="">
             </a>
