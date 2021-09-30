@@ -61,7 +61,7 @@
       <div class="pf-wrap-2">
         <div class="pf-content pf-3">
           <div>
-            <a class="pf-img cursor-pointer" href="https://codepen.io/genie_an/full/PopVvzv" target="_blank">
+            <a class="pf-img cursor-pointer" href="https://codepen.io/genie_an/full/mdwjgzZ" target="_blank">
               <span>맥도날드 웹사이트 모작-코딩 100%</span>
               <img src="resource/img/pf_img3.png" alt="">
             </a>
