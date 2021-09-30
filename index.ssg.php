@@ -89,7 +89,7 @@
         </div>
         <div class="pf-content pf-6">
           <div>
-            <a class="pf-img cursor-pointer" href="https://codepen.io/genie_an/full/vYxxWYP">
+            <a class="pf-img cursor-pointer" href="https://codepen.io/genie_an/full/wveOGjO">
               <span>피코크 웹사이트 모작</span>
               <img src="resource/img/pf_img6.png" alt="">
             </a>
