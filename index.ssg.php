@@ -69,9 +69,10 @@
         </div>
         <div class="pf-content pf-4">
           <div>
-            <a class="pf-img cursor-pointer" href="">
+            <a class="pf-img cursor-pointer" href="https://picsum.photos/id/235/1000/600" data-lightbox="image-1"
+              data-title="이미지4">
               <span>포폴4</span>
-              <img src="resource/img/pf-img4.png" alt="">
+              <img src="https://picsum.photos/id/235/340/300" alt="">
             </a>
           </div>
         </div>
