@@ -43,7 +43,7 @@
       <div class="pf-wrap-1">
         <div class="pf-content pf-1">
           <div>
-            <a class="pf-img cursor-pointer" href="https://schim613.github.io/jype_website/">
+            <a class="pf-img cursor-pointer" href="https://schim613.github.io/jype_website/" target="_blank">
               <span>JYP 엔터테인먼트 리디자인</span>
               <img src="resource/img/pf_img1.png" alt="">
             </a>
@@ -51,7 +51,7 @@
         </div>
         <div class="pf-content pf-2">
           <div>
-            <a class="pf-img cursor-pointer" href="https://codepen.io/genie_an/full/bGRZEgr">
+            <a class="pf-img cursor-pointer" href="https://codepen.io/genie_an/full/bGRZEgr" target="_blank">
               <span>오설록 웹사이트 모작</span>
               <img src="resource/img/pf_img2.png" alt="">
             </a>
@@ -61,7 +61,7 @@
       <div class="pf-wrap-2">
         <div class="pf-content pf-3">
           <div>
-            <a class="pf-img cursor-pointer" href="https://codepen.io/genie_an/full/mdwjgzZ">
+            <a class="pf-img cursor-pointer" href="https://codepen.io/genie_an/full/mdwjgzZ" target="_blank">
               <span>맥도날드 웹사이트 모작</span>
               <img src="resource/img/pf_img3.png" alt="">
             </a>
@@ -69,7 +69,7 @@
         </div>
         <div class="pf-content pf-4">
           <div>
-            <a class="pf-img cursor-pointer" href="https://to2.kr/cXc">
+            <a class="pf-img cursor-pointer" href="https://to2.kr/cXc" target="_blank">
               <span>일룸 UI/UX 프로세스 페이지</span>
               <img src="resource/img/pf_img4.png" alt="">
             </a>
@@ -88,7 +88,7 @@
         </div>
         <div class="pf-content pf-6">
           <div>
-            <a class="pf-img cursor-pointer" href="https://codepen.io/genie_an/full/wveOGjO">
+            <a class="pf-img cursor-pointer" href="https://codepen.io/genie_an/full/wveOGjO" target="_blank">
               <span>피코크 웹사이트 모작</span>
               <img src="resource/img/pf_img6.png" alt="">
             </a>
