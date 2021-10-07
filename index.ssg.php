@@ -11,7 +11,8 @@
     <!-- <h1 class="main-text section-item whitespace-nowrap">
       THE CREATIVE NOTE
     </h1> -->
-    <div class="mousemove-effect-1-el flex items-center justify-center" data-mousemove-effect1-hor-res="0.03" data-mousemove-effect1-ver-res="0.01">
+    <div class="mousemove-effect-1-el flex items-center justify-center" data-mousemove-effect1-hor-res="0.03"
+      data-mousemove-effect1-ver-res="0.01">
       <img class="hm-img-1" src="resource/img/main-title.png" alt="메인타이틀"></div>
     <!-- <div><img src="resource/img/main-title.png" alt="메인타이틀" class="section-item hm-img-1"></div> -->
   </section>
@@ -79,10 +80,20 @@
       <div class="pf-wrap-3">
         <div class="pf-content pf-5">
           <div>
-            <a class="pf-img cursor-pointer" href="https://picsum.photos/id/235/400/400" data-lightbox="image-1"
-              data-title="이미지5">
-              <span>포폴5</span>
-              <img src="https://picsum.photos/id/235/340/190" alt="">
+            <a class="pf-img cursor-pointer" href="resource/img/pf_img-5-1.jpg" data-lightbox="image-1"
+              data-title="자라섬 재즈 페스티벌 포스터 시안1">
+              <span>자라섬 재즈 페스티벌 포스터</span>
+              <img src="resource/img/pf_img-5.jpg" alt="" style="width:auto; height:365px; margin-left:40px;">
+            </a>
+          </div>
+          <div>
+            <a class="pf-img hidden" href="resource/img/pf_img-5-2.jpg" data-lightbox="image-1"
+              data-title="자라섬 재즈 페스티벌 포스터 시안2">
+            </a>
+          </div>
+          <div>
+            <a class="pf-img hidden" href="resource/img/pf_img-5-3.jpg" data-lightbox="image-1"
+              data-title="자라섬 재즈 페스티벌 포스터 시안3">
             </a>
           </div>
         </div>
