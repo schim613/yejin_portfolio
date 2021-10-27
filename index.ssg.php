@@ -80,18 +80,18 @@
         <div class="pf-content pf-1">
           <div>
             <a class="pf-img cursor-pointer" href="https://schim613.github.io/jype_website/" target="_blank">
-              <span>JYP 엔터테인먼트 리디자인</span>
+              <span class="font-bold">JYP 엔터테인먼트 리디자인</span>
               <img src="resource/img/pf_img1.png" alt="">
             </a>
-            <div class="mt-3">▶ 기획 100%, 코딩 100%</div>
-            <div class="mt-2">php 이용하여 메인페이지와 서브페이지의 상·하단바의 코드 중복을 최소화하여 효율적으로 만들었습니다.</div>
+            <div class="mt-3 text-sm font-bold">▶ 기획 100%, 코딩 100%</div>
+            <div class="mt-2 text-sm">php 이용하여 메인페이지와 서브페이지의 상·하단바의 코드 중복을 최소화하여 효율적으로 만들었습니다.</div>
             <div></div>
           </div>
         </div>
         <div class="pf-content pf-2">
           <div>
             <a class="pf-img cursor-pointer" href="https://codepen.io/genie_an/full/bGRZEgr" target="_blank">
-              <span>오설록 웹사이트 모작</span>
+              <span class="font-bold">오설록 웹사이트 모작</span>
               <img src="resource/img/pf_img2.png" alt="">
             </a>
           </div>
@@ -101,7 +101,7 @@
         <div class="pf-content pf-3">
           <div>
             <a class="pf-img cursor-pointer" href="https://codepen.io/genie_an/full/mdwjgzZ" target="_blank">
-              <span>맥도날드 웹사이트 모작</span>
+              <span class="font-bold">맥도날드 웹사이트 모작</span>
               <img src="resource/img/pf_img3.png" alt="">
             </a>
           </div>
@@ -109,11 +109,11 @@
         <div class="pf-content pf-4">
           <div>
             <a class="pf-img cursor-pointer" href="https://to2.kr/cXc" target="_blank">
-              <span>일룸 UI/UX 프로세스 페이지</span>
+              <span class="font-bold">일룸 UI/UX 프로세스 페이지</span>
               <img src="resource/img/pf_img4.png" alt="">
             </a>
-            <div class="mt-3">▶ 팀 프로젝트</div>
-            <div class="my-2">타경쟁업체와 달리 기존 앱이 없어 온라인 구매에 어려움을 겪고 있는 기존 고객들에게 실용적이며 편리한 어플을 제공합니다. 또한 새롭게 유입하는 고객들에게 사용성을
+            <div class="mt-3 text-sm font-bold">▶ 팀 프로젝트</div>
+            <div class="my-2 text-sm">타경쟁업체와 달리 기존 앱이 없어 온라인 구매에 어려움을 겪고 있는 기존 고객들에게 실용적이며 편리한 어플을 제공합니다. 또한 새롭게 유입하는 고객들에게 사용성을
               높이는 편리한 UI/UX를 목표로 프로젝트를 진행했습니다.</div>
             <a class="underline cursor-pointer" href="https://to2.kr/df7" target="_blank">▷ 상세페이지</a>
             <a class="underline cursor-pointer" href="https://to2.kr/da1" target="_blank">▷ 기획 PPT</a>
@@ -125,7 +125,7 @@
           <div>
             <a class="pf-img cursor-pointer" href="resource/img/pf_img-5-1.jpg" data-lightbox="image-1"
               data-title="자라섬 재즈 페스티벌 포스터 시안1">
-              <span>자라섬 재즈 페스티벌 포스터</span>
+              <span class="font-bold">자라섬 재즈 페스티벌 포스터</span>
               <img src="resource/img/pf_img-5.jpg" alt="" style="width:auto; height:365px; margin-left:40px;">
             </a>
           </div>
@@ -143,7 +143,7 @@
         <div class="pf-content pf-6">
           <div>
             <a class="pf-img cursor-pointer" href="https://codepen.io/genie_an/full/wveOGjO" target="_blank">
-              <span>피코크 웹사이트 모작</span>
+              <span class="font-bold">피코크 웹사이트 모작</span>
               <img src="resource/img/pf_img6.png" alt="">
             </a>
           </div>
