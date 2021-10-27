@@ -130,8 +130,27 @@ body {
 }
 
 /* 자기소개 */
-
 .am-img-1 {
+  top: 12%;
+  left: 26.77%;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.am-img-2 {
+  background-image: url("img/2-2.png");
+  background-position: center bottom;
+  pointer-events: none;
+}
+
+.am-img-3 {
+  background-image: url("img/2-3.png");
+  background-position: center bottom;
+}
+
+.am-img-4 {
+  background-image: url("img/2-4.png");
+  background-position: center bottom;
   pointer-events: none;
 }
 
