@@ -15,11 +15,11 @@
 
 /* 커서 */
 body {
-  cursor: url(img/cursor.png), auto !important;
+  cursor: url("../resource/img/cursor.png"), auto !important;
 }
 
 .cursor-pointer {
-  cursor: url(img/cursor_2.png), auto !important;
+  cursor: url("../resource/img/cursor_2.png"), auto !important;
 }
 
 /* 노말라이즈 */
@@ -29,6 +29,7 @@ li {
   padding: 0;
   margin: 0;
   list-style: none;
+  font-family: 'GmarketSansMedium';
 }
 
 a {
@@ -57,7 +58,7 @@ a {
 /* 커스텀 */
 body {
   min-width: 1920px;
-  background-image: url(img/background.jpg);
+  background-image: url("../resource/img/background.jpg");
   overflow:hidden;
   font-family: 'GmarketSansMedium';
 }
@@ -138,18 +139,18 @@ body {
 }
 
 .am-img-2 {
-  background-image: url("img/2-2.png");
+  background-image: url("../resource/img/2-2.png");
   background-position: center bottom;
   pointer-events: none;
 }
 
 .am-img-3 {
-  background-image: url("img/2-3.png");
+  background-image: url("../resource/img/2-3.png");
   background-position: center bottom;
 }
 
 .am-img-4 {
-  background-image: url("img/2-4.png");
+  background-image: url("../resource/img/2-4.png");
   background-position: center bottom;
   pointer-events: none;
 }
@@ -207,7 +208,7 @@ body {
 .pf-5 {
   width: 380px;
   height: 450px;
-  background-image: url("img/3-1-1.png");
+  background-image: url("../resource/img/3-1-1.png");
 }
 
 .pf-2,
@@ -215,7 +216,7 @@ body {
 .pf-6 {
   width: 380px;
   height: 290px;
-  background-image: url("img/3-1-2.png");
+  background-image: url("../resource/img/3-1-2.png");
 }
 
 .pf-content>div {
@@ -236,7 +237,7 @@ body {
   margin-top: 10px;
 }
 
-/* 연락 */
+/* 연락처 */
 .ct-img-1 {
   top: 290px;
   left: 350px;
@@ -275,7 +276,7 @@ body {
 }
 
 .ct-img-6 .sticker-img {
-  background-image: url(img/4-6.png);
+  background-image: url("../resource/img/4-6.png");
   background-size: contain;
   pointer-events: none;
 }
@@ -292,7 +293,7 @@ body {
 }
 
 .ct-img-7 .sticker-img {
-  background-image: url(img/4-7.png);
+  background-image: url("../resource/img/4-7.png");
   background-size: contain;
   pointer-events: none;
 }

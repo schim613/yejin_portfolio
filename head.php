@@ -29,10 +29,10 @@
   <script src="resource/sticker.min.js"></script>
 
   <!-- 사이트 공통 JS -->
-  <script src="resource/common.js" defer></script>
+  <script src="js/common.js" defer></script>
 
   <!-- 사이트 공통 CSS -->
-  <link rel="stylesheet" href="resource/common.css">
+  <link rel="stylesheet" href="css/common.css">
 </head>
 
 <body>

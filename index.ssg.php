@@ -35,7 +35,7 @@
       <div class="am-img-2" style="width:363px; height:388px;"></div>
       <div class="am-img-3 flex flex-col items-center justify-center" style="width:363px; height:388px;">
         <div class="my-10">
-          <a href="https://to2.kr/ckc" target="_blank" class="cursor-pointer flex flex-col items-center justify-center">
+          <a href="https://to2.kr/dhz" target="_blank" class="cursor-pointer flex flex-col items-center justify-center">
             <img src="resource/img/icon-youtube.png" alt="">
             <div class="mt-2">공부 영상</div>
           </a>
@@ -80,7 +80,7 @@
         <div class="pf-content pf-1">
           <div>
             <a class="pf-img cursor-pointer" href="https://schim613.github.io/jype_website/" target="_blank">
-              <span class="font-bold">JYP 엔터테인먼트 리디자인</span>
+              <span>JYP 엔터테인먼트 리디자인</span>
               <img src="resource/img/pf_img1.png" alt="">
             </a>
             <div class="mt-3 text-sm font-bold">▶ 기획 100%, 코딩 100%</div>
@@ -91,7 +91,7 @@
         <div class="pf-content pf-2">
           <div>
             <a class="pf-img cursor-pointer" href="https://codepen.io/genie_an/full/bGRZEgr" target="_blank">
-              <span class="font-bold">오설록 웹사이트 모작</span>
+              <span>오설록 웹사이트 모작</span>
               <img src="resource/img/pf_img2.png" alt="">
             </a>
           </div>
@@ -101,7 +101,7 @@
         <div class="pf-content pf-3">
           <div>
             <a class="pf-img cursor-pointer" href="https://codepen.io/genie_an/full/mdwjgzZ" target="_blank">
-              <span class="font-bold">맥도날드 웹사이트 모작</span>
+              <span>맥도날드 웹사이트 모작</span>
               <img src="resource/img/pf_img3.png" alt="">
             </a>
           </div>
@@ -109,7 +109,7 @@
         <div class="pf-content pf-4">
           <div>
             <a class="pf-img cursor-pointer" href="https://to2.kr/cXc" target="_blank">
-              <span class="font-bold">일룸 UI/UX 프로세스 페이지</span>
+              <span>일룸 UI/UX 프로세스 페이지</span>
               <img src="resource/img/pf_img4.png" alt="">
             </a>
             <div class="mt-3 text-sm font-bold">▶ 팀 프로젝트</div>
@@ -125,7 +125,7 @@
           <div>
             <a class="pf-img cursor-pointer" href="resource/img/pf_img-5-1.jpg" data-lightbox="image-1"
               data-title="자라섬 재즈 페스티벌 포스터 시안1">
-              <span class="font-bold">자라섬 재즈 페스티벌 포스터</span>
+              <span>자라섬 재즈 페스티벌 포스터</span>
               <img src="resource/img/pf_img-5.jpg" alt="" style="width:auto; height:365px; margin-left:40px;">
             </a>
           </div>
@@ -143,7 +143,7 @@
         <div class="pf-content pf-6">
           <div>
             <a class="pf-img cursor-pointer" href="https://codepen.io/genie_an/full/wveOGjO" target="_blank">
-              <span class="font-bold">피코크 웹사이트 모작</span>
+              <span>피코크 웹사이트 모작</span>
               <img src="resource/img/pf_img6.png" alt="">
             </a>
           </div>
